@@ -45,3 +45,8 @@ File created on 19/06/2023 at 01:47:14.434
 [19/06/2023 - 02:51:38.361 INFO] (<root>TheRickrollEncyclopedia\index.js:21:12):   Mongo instance connected.
 [19/06/2023 - 02:51:38.362 LOG] (<root>TheRickrollEncyclopedia\index.js:27:8): Starting _allCode().
 [19/06/2023 - 02:51:38.632 LOG] (<root>TheRickrollEncyclopedia\index.js:31:8): Server started.
+[19/06/2023 - 02:56:31.502 LOG] (<root>TheRickrollEncyclopedia\index.js:8:8): Starting...
+[19/06/2023 - 02:56:31.823 INFO] (<root>TheRickrollEncyclopedia\index.js:16:8): Tentative de connection à MongoDB...
+[19/06/2023 - 02:56:33.017 INFO] (<root>TheRickrollEncyclopedia\index.js:21:12):   Mongo instance connected.
+[19/06/2023 - 02:56:33.018 LOG] (<root>TheRickrollEncyclopedia\index.js:27:8): Starting _allCode().
+[19/06/2023 - 02:56:33.341 LOG] (<root>TheRickrollEncyclopedia\index.js:31:8): Server started.
