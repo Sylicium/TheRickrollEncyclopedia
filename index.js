@@ -8,17 +8,16 @@ try {
 logger.log("Starting...")
 
 
-const Database = require("./fetchNewLinks/databaseParser.js")
+const Database = require("./localModules/Database.js")
 const MongoClient = require('mongodb').MongoClient;
 
-
-let url = MONGODB_URL
+let url = process.env.MONGODB_URL
 
 logger.info("Tentative de connection à MongoDB...")
 MongoClient.connect(url, function(err, Mongo) {
     if(err) throw err
     Database._setMongoClient(Mongo)
-    Database._useDb("dibim")
+    Database._useDb("rickrolls")
     logger.info("  Mongo instance connected.")
     _allCode()
 })
